@@ -9,8 +9,9 @@ public class Main {
         int numZeros = scanner.nextInt();
         scanner.close();
 
-        BlockChain bc = new BlockChain(numZeros);
+        BlockChain bc = new BlockChain(numZeros, "/Users/will/block.chain");
         for (int i = 0; i < 5; ++i) bc.newBlock();
         System.out.println(bc);
+        bc.save();
     }
 }

@@ -486,7 +486,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="A proof of work concept" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/BlockchainTest.java">
