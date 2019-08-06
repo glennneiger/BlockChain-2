@@ -1,17 +1,21 @@
 package blockchain;
 
-import java.util.Scanner;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.print("Enter how many zeros the hash must starts with: ");
-        var scanner = new Scanner(System.in);
-        int numZeros = scanner.nextInt();
-        scanner.close();
 
-        BlockChain bc = new BlockChain(numZeros, "/Users/will/block.chain");
-        for (int i = 0; i < 5; ++i) bc.newBlock();
-        System.out.println(bc);
-        bc.save();
+  private final static int POOL_SIZE = 4;
+  private final static int NUM_TASKS = 20;
+
+  public static void main(String[] args) throws InterruptedException {
+    BlockChain bc = new BlockChain();
+    var executor = Executors.newFixedThreadPool(POOL_SIZE);
+    for (int i = 0; i < NUM_TASKS; ++i) {
+      executor.submit(new Miner(String.valueOf(i), bc));
     }
+    executor.shutdown();
+    executor.awaitTermination(60, TimeUnit.SECONDS);
+    System.out.println(bc);
+  }
 }

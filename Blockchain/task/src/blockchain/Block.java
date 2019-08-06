@@ -12,10 +12,13 @@ public class Block implements Serializable {
   private String hash;
   private Long computeTime;
   private Integer magicNumber;
+  private String minerId;
+  private String numZeroChanges;
 
-  public Block(int id, String prevHash, int numZeros) {
+  public Block(int blockId, String minerId, String prevHash, int numZeros) {
     this.creationTimestamp = new Date().getTime();
-    this.id = id;
+    this.id = blockId;
+    this.minerId = minerId;
     this.prevHash = prevHash;
     this.calcHash(numZeros);
   }
@@ -40,22 +43,34 @@ public class Block implements Serializable {
     return this.prevHash;
   }
 
+  public Long getComputeTime() {
+    return this.computeTime;
+  }
+
+  public synchronized void setNumZeroChanges(String change) {
+    this.numZeroChanges = change;
+  }
+
   @Override
   public String toString() {
     return String.format(
         "Block:\n"
+            + "Created by miner # %s\n"
             + "Id: %s\n"
             + "Timestamp: %s\n"
             + "Magic number: %s\n"
             + "Hash of the previous block:\n%s\n"
             + "Hash of the block:\n%s\n"
-            + "Block was generating for %s seconds\n",
+            + "Block was generating for %s seconds\n"
+            + "%s\n",
+        this.minerId,
         this.id,
         this.creationTimestamp.toString(),
         this.magicNumber,
         this.prevHash,
         this.hash,
-        this.computeTime
+        this.computeTime,
+        this.numZeroChanges
     );
   }
 }

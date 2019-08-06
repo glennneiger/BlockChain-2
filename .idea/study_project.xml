@@ -486,7 +486,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="A proof of work concept" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Solved" />
+                      <option name="status" value="Failed" />
                       <option name="files">
                         <map>
                           <entry key="test/BlockchainTest.java">
@@ -554,6 +554,34 @@
                                 <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/blockchain/Block.java" />
                                 <option name="text" value="package blockchain;&#10;&#10;public class Block {&#10;&#10;  private Integer id;&#10;  private Long creationTimestamp;&#10;  private String prevHash;&#10;  private String hash;&#10;&#10;  public Block(long ts, int id, String prevHash) {&#10;    this.creationTimestamp = ts;&#10;    this.id = id;&#10;    this.prevHash = prevHash;&#10;    this.hash = this.calcHash();&#10;  }&#10;&#10;  private String calcHash() {&#10;    return StringUtil.applySha256(&#10;        this.prevHash + this.id.toString() + this.creationTimestamp.toString()&#10;    );&#10;  }&#10;&#10;  public String getHash() {&#10;    return this.hash;&#10;  }&#10;&#10;  public String getPrevHash() {&#10;    return this.prevHash;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return String.format(&#10;        &quot;Block:\n&quot;&#10;            + &quot;Id: %s\n&quot;&#10;            + &quot;Timestamp: %s\n&quot;&#10;            + &quot;Hash of the previous block:\n%s\n&quot;&#10;            + &quot;Hash of the block:\n%s\n&quot;,&#10;        this.id,&#10;        this.creationTimestamp.toString(),&#10;        this.prevHash,&#10;        this.hash&#10;    );&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Miner.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/Miner.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/BlockChainUtil.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/BlockChainUtil.java" />
+                                <option name="text" value="" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
