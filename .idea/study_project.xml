@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="Blockchains are data structures where blocks are inseparably connected. What makes blockchains so special is the security level they offer due to the way they are constructed. Blockchains are unhackable, so it makes perfect sense why cryptocurrency makes use of this technology. In this project, you will try yourself at making a microcosm where virtual miners earn cryptocurrency and exchange messages and transactions using blockchain. As difficult as the project might be, it is bound to pay off: not in cryptocurrency, but in knowledge and skills.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/50&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA 11" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Blockchain" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="271" />
+                <option name="stepId" value="5413" />
+                <option name="title" value="Blockchain essentials" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="272" />
+                <option name="stepId" value="5414" />
+                <option name="title" value="A proof of work concept" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="273" />
+                <option name="stepId" value="5415" />
+                <option name="title" value="Miner mania" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="274" />
+                <option name="stepId" value="5416" />
+                <option name="title" value="You’ve got a message" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="275" />
+                <option name="stepId" value="5417" />
+                <option name="title" value="Matters of security" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="276" />
+                <option name="stepId" value="5418" />
+                <option name="title" value="Local currency" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="266" />
+                      <option name="theoryId" value="4953" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="263" />
+                      <option name="theoryId" value="4991" />
+                      <option name="title" value="The big O notation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="267" />
+                      <option name="theoryId" value="5161" />
+                      <option name="title" value="Data structures" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="288" />
+                      <option name="theoryId" value="5364" />
+                      <option name="title" value="Hash table" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="480" />
+                      <option name="theoryId" value="6577" />
+                      <option name="title" value="Command line overview" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="60" />
+                      <option name="theoryId" value="3497" />
+                      <option name="title" value="What is an exception" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="164" />
+                      <option name="theoryId" value="1945" />
+                      <option name="title" value="NPE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="167" />
+                      <option name="theoryId" value="3492" />
+                      <option name="title" value="Generic programming" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="168" />
+                      <option name="theoryId" value="3493" />
+                      <option name="title" value="Generics and Object" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="170" />
+                      <option name="theoryId" value="3606" />
+                      <option name="title" value="Generic methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="383" />
+                      <option name="theoryId" value="6945" />
+                      <option name="title" value="Hash table in Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="197" />
+                      <option name="theoryId" value="3770" />
+                      <option name="title" value="What are collections" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="166" />
+                      <option name="theoryId" value="3567" />
+                      <option name="title" value="ArrayList" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="157" />
+                      <option name="theoryId" value="3611" />
+                      <option name="title" value="The concept of patterns" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="326" />
+                      <option name="theoryId" value="5155" />
+                      <option name="title" value="Template method" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="160" />
+                      <option name="theoryId" value="3577" />
+                      <option name="title" value="Encapsulating object creation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="324" />
+                      <option name="theoryId" value="5761" />
+                      <option name="title" value="Factory method" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="382" />
+                      <option name="theoryId" value="5732" />
+                      <option name="title" value="Abstract factory" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="59" />
+                      <option name="theoryId" value="3570" />
+                      <option name="title" value="Hierarchy of exceptions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="65" />
+                      <option name="theoryId" value="3552" />
+                      <option name="title" value="Exception handling" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="172" />
+                      <option name="theoryId" value="3635" />
+                      <option name="title" value="Files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="173" />
+                      <option name="theoryId" value="3636" />
+                      <option name="title" value="Reading files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="176" />
+                      <option name="theoryId" value="3648" />
+                      <option name="title" value="Managing files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="177" />
+                      <option name="theoryId" value="3652" />
+                      <option name="title" value="Writing files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="4" />
+                      <option name="theoryId" value="3511" />
+                      <option name="title" value="Array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="98" />
+                      <option name="theoryId" value="3551" />
+                      <option name="title" value="Processing strings" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="100" />
+                      <option name="theoryId" value="3598" />
+                      <option name="title" value="Serialization basics" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="103" />
+                      <option name="theoryId" value="3616" />
+                      <option name="title" value="Custom serialization" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="316" />
+                      <option name="theoryId" value="5096" />
+                      <option name="title" value="Command" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="156" />
+                      <option name="theoryId" value="3555" />
+                      <option name="title" value="Singleton" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="62" />
+                      <option name="theoryId" value="3600" />
+                      <option name="title" value="Basics of multithreading" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="295" />
+                      <option name="theoryId" value="4875" />
+                      <option name="title" value="Threads as objects" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="294" />
+                      <option name="theoryId" value="4876" />
+                      <option name="title" value="Custom threads" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="72" />
+                      <option name="theoryId" value="3619" />
+                      <option name="title" value="Thread management" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="297" />
+                      <option name="theoryId" value="4882" />
+                      <option name="title" value="Exceptions in threads" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="77" />
+                      <option name="theoryId" value="3610" />
+                      <option name="title" value="Working with shared data and problems" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="86" />
+                      <option name="theoryId" value="3557" />
+                      <option name="title" value="Thread synchronization" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="299" />
+                      <option name="theoryId" value="4895" />
+                      <option name="title" value="Executors" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="37" />
+                      <option name="theoryId" value="3525" />
+                      <option name="title" value="Overloading" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="38" />
+                      <option name="theoryId" value="3534" />
+                      <option name="title" value="Static members" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="120" />
+                      <option name="theoryId" value="3538" />
+                      <option name="title" value="Multiple constructors" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="127" />
+                      <option name="theoryId" value="3588" />
+                      <option name="title" value="The keyword super" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="5" />
+                      <option name="theoryId" value="3572" />
+                      <option name="title" value="Hiding and overriding" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="2" />
+                      <option name="theoryId" value="3587" />
+                      <option name="title" value="Polymorphism" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="124" />
+                      <option name="theoryId" value="3615" />
+                      <option name="title" value="Interface" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="323" />
+                      <option name="theoryId" value="5216" />
+                      <option name="title" value="Decorator" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="354" />
+                      <option name="theoryId" value="5527" />
+                      <option name="title" value="Facade" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="97" />
+                      <option name="theoryId" value="3602" />
+                      <option name="title" value="Iterating over arrays" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="Blockchains are data structures where blocks are inseparably connected. What makes blockchains so special is the security level they offer due to the way they are constructed. Blockchains are unhackable, so it makes perfect sense why cryptocurrency makes use of this technology. In this project, you will try yourself at making a microcosm where virtual miners earn cryptocurrency and exchange messages and transactions using blockchain. As difficult as the project might be, it is bound to pay off: not in cryptocurrency, but in knowledge and skills." />
+              <option name="id" value="50" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/209941/additional_files.json" />
+              <option name="language" value="java" />
+              <option name="templateBased" value="false" />
+              <option name="title" value="Blockchain" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="1" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Blockchain" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;Description&lt;/h2&gt;&#10;&#10;&lt;div&gt;&lt;/div&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Blockchain&#10;has a simple interpretation: it's just a chain of blocks. It represents a&#10;sequence of data that you can't break in the middle; you can only append new&#10;data at the end of it. All the blocks in the blockchain are chained together.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=bBC-nXj3Ng4&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;this&lt;/a&gt; great video about the blockchain. It uses a different approach to reach the final result of the project, which is cryptocurrencies, but it explains the blockchain pretty well.&lt;br&gt;&#10;  &lt;br&gt;&#10;  To be called a blockchain, every block must include the &lt;b&gt;hash of the previous&#10;    block&lt;/b&gt;. Other fields of the block are optional and can store various&#10;  information.&lt;br&gt;&#10;  &lt;br&gt;&#10;  Note that if you change one block in the middle, the hash of this block will&#10;  also change. and the next block in the chain would no longer contain the hash&#10;  of the previous block. Therefore, it’s easy to check that the chain is invalid.&lt;br&gt;&#10;  &lt;br&gt;&#10;  In the first stage, you need to implement such a blockchain. In addition to&#10;  storing the hash of the previous block, every block should also have a unique&#10;  identifier. The chain starts with a block whose id = 1. Also, every block&#10;  should contain a timestamp representing the time the block was created. You can use the following code to get such a timestamp. This represents the number of milliseconds since 1 January 1970.&lt;/div&gt;&lt;div&gt;&lt;pre&gt;&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;&lt;pre&gt;long timeStamp = new Date().getTime();&#10;// 1539795682545 represents 17.10.2018, 20:01:22.545&#10;&lt;/pre&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt; By the&#10;  way, since the first block doesn’t have a previous one, its hash of the&#10;  previous block should be 0.&lt;br&gt;&#10;  &lt;br&gt;&#10;  The class Blockchain should have at least two methods: the first one generates&#10;  a new block in the blockchain and the second one validates the blockchain and&#10;  returns true if the blockchain is valid. Of course, the Blockchain should store all it's generated blocks. The validation function should validate all the blocks of this blockchain.&lt;br&gt;&#10;  &lt;br&gt;&#10;  Also, for hashing blocks, you need to choose a good cryptographic hash function&#10;  which is impossible to reverse-engineer. Insecure hash functions allow hackers&#10;  to change the information of the block so that that the hash of the block stays&#10;  the same, so the hash function must be secure. A good example of a secure hash&#10;  function is SHA-256. You can use this implementation of the SHA-256 hashing:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre&gt;&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;import java.security.MessageDigest;&lt;br&gt;&lt;br&gt;class StringUtil {&lt;br&gt;    /* Applies Sha256 to a string and returns a hash. */&lt;br&gt;    public static String applySha256(String input){&lt;br&gt;        try {&lt;br&gt;            MessageDigest digest = MessageDigest.getInstance(&quot;SHA-256&quot;);&lt;br&gt;            /* Applies sha256 to our input */&lt;br&gt;            byte[] hash = digest.digest(input.getBytes(&quot;UTF-8&quot;));&lt;br&gt;            StringBuilder hexString = new StringBuilder();&lt;br&gt;            for (byte elem: hash) {&lt;br&gt;                String hex = Integer.toHexString(0xff &amp;amp; elem);&lt;br&gt;                if(hex.length() == 1) hexString.append('0');&lt;br&gt;                hexString.append(hex);&lt;br&gt;            }&lt;br&gt;            return hexString.toString();&lt;br&gt;        }&lt;br&gt;        catch(Exception e) {&lt;br&gt;            throw new RuntimeException(e);&lt;br&gt;        }&lt;br&gt;    }&lt;br&gt;}&lt;/code&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Try to create at least 10 blocks in this stage. After the creation, validate the created blockchain using your validation method.&lt;/div&gt;&lt;h2&gt;Output example&lt;/h2&gt;&lt;div&gt;The example below shows how your output might look. To be tested successfully, program should output information about first five blocks of the blockchain. Blocks should be separated by an empty line..&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Block:&lt;br&gt;Id: 1&lt;br&gt;Timestamp: 1539810682545&lt;br&gt;Hash of the previous block: &lt;br&gt;0&lt;br&gt;Hash of the block: &lt;br&gt;796f0a5106c0e114cef3ee14b5d040ecf331dbf1281cef5a7b43976f5715160d&lt;br&gt;&lt;br&gt;Block:&lt;br&gt;Id: 2&lt;br&gt;Timestamp: 1539810682557&lt;br&gt;Hash of the previous block: &lt;br&gt;796f0a5106c0e114cef3ee14b5d040ecf331dbf1281cef5a7b43976f5715160d&lt;br&gt;Hash of the block: &lt;br&gt;717242af079ccb7dd44c3f016936a81cf8ab2d4c1901243f30cbb7daa2060a0d&lt;br&gt;&lt;br&gt;Block:&lt;br&gt;Id: 3&lt;br&gt;Timestamp: 1539810682558&lt;br&gt;Hash of the previous block: &lt;br&gt;717242af079ccb7dd44c3f016936a81cf8ab2d4c1901243f30cbb7daa2060a0d&lt;br&gt;Hash of the block: &lt;br&gt;28a2269bb34abd01dee9cea03400345bc9ea7322d73d3263221a47c6d970404f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/50/stages/271/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5413" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Blockchain essentials" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/blockchain/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/Main.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/BlockchainTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BlockchainTest.java" />
+                                <option name="text" value="import blockchain.Main;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class BlockParseException extends Exception {&#10;    BlockParseException(String msg) {&#10;        super(msg);&#10;    }&#10;}&#10;&#10;&#10;class Block {&#10;&#10;    int id;&#10;    long timestamp;&#10;    String hashprev;&#10;    String hash;&#10;&#10;    static Block parseBlock(String strBlock) throws BlockParseException {&#10;        if (strBlock.length() == 0) {&#10;            return null;&#10;        }&#10;        Block block = new Block();&#10;&#10;        List&lt;String&gt; lines = strBlock&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        if (lines.size() != 7) {&#10;            throw new BlockParseException(&quot;Every block should &quot; +&#10;                &quot;contain 7 lines of data&quot;);&#10;        }&#10;&#10;        if (!lines.get(0).equals(&quot;Block:&quot;)) {&#10;            throw new BlockParseException(&quot;First line of every block &quot; +&#10;                &quot;should be \&quot;Block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(1).startsWith(&quot;Id:&quot;)) {&#10;            throw new BlockParseException(&quot;Second line of every block &quot; +&#10;                &quot;should start with \&quot;Id:\&quot;&quot;);&#10;        }&#10;&#10;        String id = lines.get(1).split(&quot;:&quot;)[1].strip();&#10;        boolean isNumeric = id.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Id should be a number&quot;);&#10;        }&#10;&#10;        block.id = Integer.parseInt(id);&#10;&#10;        if (!lines.get(2).startsWith(&quot;Timestamp:&quot;)) {&#10;            throw new BlockParseException(&quot;Third line of every block &quot; +&#10;                &quot;should start with \&quot;Timestamp:\&quot;&quot;);&#10;        }&#10;&#10;        String timestamp = lines.get(2).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = timestamp.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Timestamp should be a number&quot;);&#10;        }&#10;&#10;        block.timestamp = Long.parseLong(timestamp);&#10;&#10;        if (!lines.get(3).equals(&quot;Hash of the previous block:&quot;)) {&#10;            throw new BlockParseException(&quot;4-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the previous block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(5).equals(&quot;Hash of the block:&quot;)) {&#10;            throw new BlockParseException(&quot;6-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the block:\&quot;&quot;);&#10;        }&#10;&#10;        String prevhash = lines.get(4).strip();&#10;        String hash = lines.get(6).strip();&#10;&#10;        if (!(prevhash.length() == 64 || prevhash.equals(&quot;0&quot;))&#10;            || !(hash.length() == 64)) {&#10;&#10;            throw new BlockParseException(&quot;Hash length should &quot; +&#10;                &quot;be equal to 64 except \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        block.hash = hash;&#10;        block.hashprev = prevhash;&#10;&#10;        return block;&#10;    }&#10;&#10;&#10;    static List&lt;Block&gt; parseBlocks(String output) throws BlockParseException {&#10;        String[] strBlocks = output.split(&quot;\n\n&quot;);&#10;&#10;        List&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;&#10;        for (String strBlock : strBlocks) {&#10;            Block block = parseBlock(strBlock.strip());&#10;            if (block != null) {&#10;                blocks.add(block);&#10;            }&#10;        }&#10;&#10;        return blocks;&#10;    }&#10;}&#10;&#10;&#10;public class BlockchainTest extends BaseStageTest {&#10;    public BlockchainTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generate() {&#10;        return List.of(new TestCase());&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object clue) {&#10;&#10;        List&lt;Block&gt; blocks;&#10;        try {&#10;            blocks = Block.parseBlocks(reply);&#10;        } catch (BlockParseException ex) {&#10;            return new CheckResult(false, ex.getMessage());&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE;&#10;        }&#10;&#10;        if (blocks.size() != 5) {&#10;            return new CheckResult(false,&#10;                &quot;You should output 5 blocks, found &quot; + blocks.size());&#10;        }&#10;&#10;        Block first = blocks.get(0);&#10;        if (!first.hashprev.equals(&quot;0&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Previous hash of the first block should be \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; blocks.size(); i++) {&#10;            Block curr = blocks.get(i - 1);&#10;            Block next = blocks.get(i);&#10;&#10;            if (curr.id + 1 != next.id) {&#10;                return new CheckResult(false,&#10;                    &quot;Id`s of blocks should increase by 1&quot;);&#10;            }&#10;&#10;            if (next.timestamp &lt; curr.timestamp) {&#10;                return new CheckResult(false,&#10;                    &quot;Timestamp`s of blocks should increase&quot;);&#10;            }&#10;&#10;            if (!next.hashprev.equals(curr.hash)) {&#10;                return new CheckResult(false, &quot;Two hashes aren't equal, &quot; +&#10;                    &quot;but should&quot;);&#10;            }&#10;        }&#10;&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/StringUtil.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/StringUtil.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Block.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/Block.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/BlockChain.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/BlockChain.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1561938905000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;  The&#10;  security of our blockchain is pretty low. You can't just change some&#10;  information in the middle of a blockchain, because the hash of this block will&#10;  also be changed. And the next block still keeps the old hash value of the&#10;  previous block. But can't we replace the old hash value with the new hash value&#10;  so everything will be ok? No, because when you change the value of the previous&#10;  hash in the block, the hash of this block will also be changed! To fix this,&#10;  you need to change the value of the previous hash in the block after it. To&#10;  solve this problem, you need to fix hash values in all the blocks until the&#10;  last block of the blockchain!&lt;br&gt;&#10;  &lt;br&gt;&#10;  This seems to be a pretty hard task to execute, doesn’t it? If the time it&#10;  takes to fix the hash value of the previous block is less than time to create a&#10;  new block, we suddenly would be fixing blocks faster than the system can create&#10;  them and eventually we will fix them all. The problem is that fixing the hash&#10;  values is easy to do. The blockchain becomes useless if it is possible to&#10;  change information in it.&lt;br&gt;&#10;  &lt;br&gt;&#10;  The solution to this is called &lt;b&gt;proof of work&lt;/b&gt;. This means that creating new&#10;  blocks and fixing hash values in the existing ones should take time and&#10;  shouldn't be instant. The time should depend on the amount of computational&#10;  work put into it. This way, the hacker must have more computational resources&#10;  than the rest of the computers of the system put together.&lt;br&gt;&#10;  &lt;br&gt;&#10;  The main goal is that the hash of the block shouldn't be random. It should&#10;  start with some amount of zeros. To achieve that, the block should contain an&#10;  additional field: a &lt;b&gt;magic number&lt;/b&gt;. Of course, this number should take part in&#10;  calculating the hash of this block. With one magic number, and with another,&#10;  the hashes would be totally different even though the other part of the block&#10;  stays the same. But with the help of probability theory, we can say that there&#10;  exist some magic numbers, with which the hash of the block starts with some&#10;  number of zeros. The only way to find one of them is to make random guesses&#10;  until we found one of them. For a computer, this means that the only way to find the solution is to brute force it: try 1, 2, 3, and so on. The better solution would be to brute force with random numbers, not with the increasing from 1 to N where N is the solution. You can see this algorithm in the animation below:&lt;/p&gt;&lt;p&gt;Obviously, the more zeros you need at the start of&#10;  the block hash, the harder this task will become. And finally, if the hacker&#10;  wants to change some information in the middle of the blockchain, the hash of&#10;  the modified block would be changed and it won't start with zeros, so the&#10;  hacker would be forced to find another magic number to create a block with a&#10;  hash which starts with zeros. Note that the hacker must find magic numbers for&#10;  all of the blocks until the end of the blockchain, which seems like a pretty&#10;  impossible task, considering that the blockchain will grow faster.&lt;/p&gt;&lt;p&gt;&#10;  It's said that that the block is &lt;b&gt;proved &lt;/b&gt;if it has a hash which starts with some&#10;  number of zeros. The information inside it is impossible to change even though&#10;  the information itself is open and easy to edit in the text editor. The result&#10;  of the edit is a changed hash of the block, no longer containing zeros at the&#10;  start, so this block suddenly becomes &lt;b&gt;unproved &lt;/b&gt;after the edit. And since the&#10;  blockchain must consist of only proved blocks, the whole blockchain becomes&#10;  invalid. This is the power of the proof of work concept.&lt;br&gt;&#10;  &lt;br&gt;&#10;  In this stage, you need to improve the blockchain. If should generate new&#10;  blocks only with hashes that start with N zeros. The number N should be input&#10;  from the keyboard. Also, the blockchain should be saved to the file after each&#10;  block. At the start of the program, you should check if a blockchain exists on&#10;  the hard drive, load it, check if it is valid, and then continue to create&#10;  blocks. You may want to use serialization to do that.&lt;/p&gt;&lt;h2&gt;Output examples&lt;/h2&gt;&lt;p&gt;The example below shows how your output might look. Output information about a few first blocks of the blockchain. Also, output the time that was needed to create a block. Your results and time measurements can be totally different than in the example! To be tested successfully, program should output information about first five blocks of the blockchain. Blocks should be separated by an empty line.&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Enter how many zeros the hash must starts with: 5&#10;&#10;Block:&lt;br&gt;Id: 1&lt;br&gt;Timestamp: 1539827383396&#10;Magic number: 24672386&#10;Hash of the previous block: &lt;br&gt;0&#10;Hash of the block: &lt;br&gt;00000a3fe20573b5bb358d2291165e15662a5b057240e954c573fb1f2a6d0cb8&lt;br&gt;Block was generating for 12 seconds&lt;br&gt;&lt;br&gt;Block:&lt;br&gt;Id: 2&lt;br&gt;Timestamp: 1539827385414&#10;Magic number: 87453465&#10;Hash of the previous block: &lt;br&gt;00000a3fe20573b5bb358d2291165e15662a5b057240e954c573fb1f2a6d0cb8&lt;br&gt;Hash of the block: &lt;br&gt;000002e0ddd3c11e85466be0fa3dc5cb112daa7a3126e680c7d4f5716c0c6f9c&lt;br&gt;Block was generating for 21 seconds&lt;br&gt;&lt;br&gt;Block:&lt;br&gt;Id: 3&lt;br&gt;Timestamp: 1539827387961&#10;Magic number: 32734621&#10;Hash of the previous block: &lt;br&gt;000002e0ddd3c11e85466be0fa3dc5cb112daa7a3126e680c7d4f5716c0c6f9c&lt;br&gt;Hash of the block: &lt;br&gt;000006edc10682ac3d511175b54192a7d36459af6e23671275c2c6879ab1c412&lt;br&gt;Block was generating for 18 seconds&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Enter how many zeros the hash must starts with: 8&#10;&#10;Block:&lt;br&gt;Id: 1&lt;br&gt;Timestamp: 1539827504324&#10;Magic number: 9347534&#10;Hash of the previous block: &lt;br&gt;0&lt;br&gt;Hash of the block: &lt;br&gt;0000000031ae66963218b132a7c9e7e6ee300a39288e80ce8f6b107aca6d467b&lt;br&gt;Block was generating for 231 seconds&lt;br&gt;&lt;br&gt;Block:&lt;br&gt;Id: 2&lt;br&gt;Timestamp: 1539827526140&#10;Magic number: 34652436&#10;Hash of the previous block: &lt;br&gt;0000000031ae66963218b132a7c9e7e6ee300a39288e80ce8f6b107aca6d467b&lt;br&gt;Hash of the block: &lt;br&gt;00000000526655e7dee356b943c5551f0dededd67d0b36db34a3e5d03e44aad6&lt;br&gt;Block was generating for 211 seconds&lt;br&gt;&lt;br&gt;Block:&lt;br&gt;Id: 3&lt;br&gt;Timestamp: 1539827557451&#10;Magic number: 84587649&#10;Hash of the previous block: &lt;br&gt;00000000526655e7dee356b943c5551f0dededd67d0b36db34a3e5d03e44aad6&lt;br&gt;Hash of the block: &lt;br&gt;00000000df645313e301f147105b009bdc084945fb684517d351f175ed4d67be&lt;br&gt;Block was generating for 461 seconds&lt;/code&gt;&lt;/pre&gt; &lt;br&gt;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/50/stages/272/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5414" />
+                      <option name="index" value="2" />
+                      <option name="name" value="A proof of work concept" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BlockchainTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BlockchainTest.java" />
+                                <option name="text" value="import blockchain.Main;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class BlockParseException extends Exception {&#10;    BlockParseException(String msg) {&#10;        super(msg);&#10;    }&#10;}&#10;&#10;&#10;class Block {&#10;&#10;    int id;&#10;    long timestamp;&#10;    long magic;&#10;    String hashprev;&#10;    String hash;&#10;&#10;    static Block parseBlock(String strBlock) throws BlockParseException {&#10;        if (strBlock.length() == 0) {&#10;            return null;&#10;        }&#10;&#10;        if (!(strBlock.contains(&quot;Block:&quot;)&#10;            &amp;&amp; strBlock.contains(&quot;Timestamp:&quot;))) {&#10;&#10;            return null;&#10;        }&#10;&#10;        Block block = new Block();&#10;&#10;        List&lt;String&gt; lines = strBlock&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        if (lines.size() != 9) {&#10;            throw new BlockParseException(&quot;Every block should &quot; +&#10;                &quot;contain 9 lines of data&quot;);&#10;        }&#10;&#10;        if (!lines.get(0).equals(&quot;Block:&quot;)) {&#10;            throw new BlockParseException(&quot;First line of every block &quot; +&#10;                &quot;should be \&quot;Block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(1).startsWith(&quot;Id:&quot;)) {&#10;            throw new BlockParseException(&quot;Second line of every block &quot; +&#10;                &quot;should start with \&quot;Id:\&quot;&quot;);&#10;        }&#10;&#10;        String id = lines.get(1).split(&quot;:&quot;)[1].strip();&#10;        boolean isNumeric = id.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Id should be a number&quot;);&#10;        }&#10;&#10;        block.id = Integer.parseInt(id);&#10;&#10;&#10;&#10;        if (!lines.get(2).startsWith(&quot;Timestamp:&quot;)) {&#10;            throw new BlockParseException(&quot;Third line of every block &quot; +&#10;                &quot;should start with \&quot;Timestamp:\&quot;&quot;);&#10;        }&#10;&#10;        String timestamp = lines.get(2).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = timestamp.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Timestamp should be a number&quot;);&#10;        }&#10;&#10;        block.timestamp = Long.parseLong(timestamp);&#10;&#10;&#10;        if (!lines.get(3).startsWith(&quot;Magic number:&quot;)) {&#10;            throw new BlockParseException(&quot;4-th line of every block &quot; +&#10;                &quot;should start with \&quot;Magic number:\&quot;&quot;);&#10;        }&#10;&#10;        String magic = lines.get(3).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = magic.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Timestamp should be a number&quot;);&#10;        }&#10;&#10;        block.magic = Long.parseLong(magic);&#10;&#10;&#10;&#10;        if (!lines.get(4).equals(&quot;Hash of the previous block:&quot;)) {&#10;            throw new BlockParseException(&quot;5-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the previous block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(6).equals(&quot;Hash of the block:&quot;)) {&#10;            throw new BlockParseException(&quot;7-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the block:\&quot;&quot;);&#10;        }&#10;&#10;        String prevhash = lines.get(5).strip();&#10;        String hash = lines.get(7).strip();&#10;&#10;        if (!(prevhash.length() == 64 || prevhash.equals(&quot;0&quot;))&#10;            || !(hash.length() == 64)) {&#10;&#10;            throw new BlockParseException(&quot;Hash length should &quot; +&#10;                &quot;be equal to 64 except \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        block.hash = hash;&#10;        block.hashprev = prevhash;&#10;&#10;        return block;&#10;    }&#10;&#10;&#10;    static List&lt;Block&gt; parseBlocks(String output) throws BlockParseException {&#10;        String[] strBlocks = output.substring(&#10;            output.indexOf(&quot;Block:&quot;)).split(&quot;\n\n&quot;);&#10;&#10;        List&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;&#10;        for (String strBlock : strBlocks) {&#10;            Block block = parseBlock(strBlock.strip());&#10;            if (block != null) {&#10;                blocks.add(block);&#10;            }&#10;        }&#10;&#10;        return blocks;&#10;    }&#10;}&#10;&#10;class Clue {&#10;    String zeros;&#10;    Clue(int n) {&#10;        zeros = &quot;0&quot;.repeat(n);&#10;    }&#10;}&#10;&#10;&#10;public class BlockchainTest extends BaseStageTest&lt;Clue&gt; {&#10;    public BlockchainTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;Clue&gt;().setInput(&quot;0&quot;).setAttach(new Clue(0)),&#10;            new TestCase&lt;Clue&gt;().setInput(&quot;1&quot;).setAttach(new Clue(1)),&#10;            new TestCase&lt;Clue&gt;().setInput(&quot;2&quot;).setAttach(new Clue(2))&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;Block&gt; blocks;&#10;        try {&#10;            blocks = Block.parseBlocks(reply);&#10;        } catch (BlockParseException ex) {&#10;            return new CheckResult(false, ex.getMessage());&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE;&#10;        }&#10;&#10;        if (blocks.size() != 5) {&#10;            return new CheckResult(false,&#10;                &quot;You should output 5 blocks, found &quot; + blocks.size());&#10;        }&#10;&#10;        Block first = blocks.get(0);&#10;        if (!first.hashprev.equals(&quot;0&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Previous hash of the first block should be \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; blocks.size(); i++) {&#10;            Block curr = blocks.get(i - 1);&#10;            Block next = blocks.get(i);&#10;&#10;            if (curr.id + 1 != next.id) {&#10;                return new CheckResult(false,&#10;                    &quot;Id`s of blocks should increase by 1&quot;);&#10;            }&#10;&#10;            if (next.timestamp &lt; curr.timestamp) {&#10;                return new CheckResult(false,&#10;                    &quot;Timestamp`s of blocks should increase&quot;);&#10;            }&#10;&#10;            if (!next.hashprev.equals(curr.hash)) {&#10;                return new CheckResult(false, &quot;Two hashes aren't equal, &quot; +&#10;                    &quot;but should&quot;);&#10;            }&#10;&#10;            if (!next.hash.startsWith(clue.zeros)) {&#10;                return new CheckResult(false,&#10;                    &quot;Hash should start with some zeros&quot;);&#10;            }&#10;        }&#10;&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/Main.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/StringUtil.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/StringUtil.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;import java.nio.charset.StandardCharsets;&#10;import java.security.MessageDigest;&#10;&#10;class StringUtil {&#10;  /* Applies Sha256 to a string and returns a hash. */&#10;  public static String applySha256(String input){&#10;    try {&#10;      MessageDigest digest = MessageDigest.getInstance(&quot;SHA-256&quot;);&#10;      /* Applies sha256 to our input */&#10;      byte[] hash = digest.digest(input.getBytes(StandardCharsets.UTF_8));&#10;      StringBuilder hexString = new StringBuilder();&#10;      for (byte elem: hash) {&#10;        String hex = Integer.toHexString(0xff &amp; elem);&#10;        if(hex.length() == 1) hexString.append('0');&#10;        hexString.append(hex);&#10;      }&#10;      return hexString.toString();&#10;    }&#10;    catch(Exception e) {&#10;      throw new RuntimeException(e);&#10;    }&#10;  }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/BlockChain.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/BlockChain.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;import java.util.ArrayList;&#10;import java.util.Date;&#10;import java.util.stream.Collectors;&#10;&#10;public class BlockChain {&#10;&#10;  private ArrayList&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;&#10;  public boolean validate() {&#10;    if (this.blocks.size() &lt;= 1) {&#10;      return true;&#10;    }&#10;    for (int i = 1; i &lt; this.blocks.size(); ++i) {&#10;      if (!this.blocks.get(i).getPrevHash().equals(this.blocks.get(i - 1).getHash())) {&#10;        return false;&#10;      }&#10;    }&#10;    return true;&#10;  }&#10;&#10;  public void newBlock() {&#10;    this.blocks.add(&#10;        new Block(new Date().getTime(), this.blocks.size(),&#10;            this.blocks.size() == 0 ? &quot;0&quot; : this.blocks.get(this.blocks.size() - 1).getHash())&#10;    );&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return this.blocks.stream().map(Block::toString).collect(Collectors.joining(&quot;\n&quot;));&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Block.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/blockchain/Block.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Block {&#10;&#10;  private Integer id;&#10;  private Long creationTimestamp;&#10;  private String prevHash;&#10;  private String hash;&#10;&#10;  public Block(long ts, int id, String prevHash) {&#10;    this.creationTimestamp = ts;&#10;    this.id = id;&#10;    this.prevHash = prevHash;&#10;    this.hash = this.calcHash();&#10;  }&#10;&#10;  private String calcHash() {&#10;    return StringUtil.applySha256(&#10;        this.prevHash + this.id.toString() + this.creationTimestamp.toString()&#10;    );&#10;  }&#10;&#10;  public String getHash() {&#10;    return this.hash;&#10;  }&#10;&#10;  public String getPrevHash() {&#10;    return this.prevHash;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return String.format(&#10;        &quot;Block:\n&quot;&#10;            + &quot;Id: %s\n&quot;&#10;            + &quot;Timestamp: %s\n&quot;&#10;            + &quot;Hash of the previous block:\n%s\n&quot;&#10;            + &quot;Hash of the block:\n%s\n&quot;,&#10;        this.id,&#10;        this.creationTimestamp.toString(),&#10;        this.prevHash,&#10;        this.hash&#10;    );&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1561938906000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;&lt;b&gt;Description&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;  The&#10;  blockchain itself shouldn't create new blocks. The blockchain just keeps the&#10;  chain valid and accepts the new blocks from outside. In the outside world,&#10;  there are a lot of computers that try to create a new block. All they do is search&#10;  for a magic number to create a block whose hash starts with some zeros. The&#10;  first computer to do so is a winner, the blockchain accepts this new block, and&#10;  then all these computers try to find a magic number for the next block.&lt;br&gt;&#10;  &lt;br&gt;&#10;  There is a special word for this: &lt;b&gt;mining&lt;/b&gt;. The process of mining blocks is hard&#10;  work for computers, like the process of mining minerals in real life is hard&#10;  work. Computers that perform this task are called &lt;b&gt;miners&lt;/b&gt;.&lt;br&gt;&#10;  &lt;br&gt;&#10;  Note that if there are more miners, the new blocks will be mined faster. But&#10;  the problem is that we want to create new blocks with a stable frequency. For&#10;  this reason, the blockchain should regulate the number N: the number of zeros&#10;  at the start of a hash of the new block. If suddenly there are so many miners&#10;  that the new block is created in a matter of seconds, the complexity of the&#10;  next block should be increased by increasing the number N. On the other hand,&#10;  if there are so few miners that process of creating a new block takes longer&#10;  than a minute, the number N should be lowered.&lt;br&gt;&#10;  &lt;br&gt;&#10;  In this stage, you should create a lot of threads with miners, and every one of&#10;  them should contain the same blockchain. The miners should mine new blocks and&#10;  the blockchain should regulate the number N. The blockchain should check the validity&#10;  of the incoming block (ensure that the previous hash equals the hash of the&#10;  last block of the blockchain and the hash of this new block starts with N&#10;  zeros). At the start, the number N equals 0 and should be increased by 1 /&#10;  decreased by 1 / stays the same after the creation of the new block based on&#10;  the time of its creation.&lt;/p&gt;&lt;h2&gt;&lt;b&gt;Output example&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;To be tested successfully, program should output information about first five blocks of the blockchain. Blocks should be separated by an empty line.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Block:&#10;Created by miner # 9&#10;Id: 1&lt;br&gt;Timestamp: 1539866031047&#10;Magic number: 23462876&#10;Hash of the previous block: &lt;br&gt;0&lt;br&gt;Hash of the block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&lt;br&gt;Block was generating for 0 seconds&#10;N was increased to 1&#10;&#10;Block:&#10;Created by miner # 7&#10;Id: 2&lt;br&gt;Timestamp: 1539866031062&#10;Magic number: 63576287&#10;Hash of the previous block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&lt;br&gt;Hash of the block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&lt;br&gt;Block was generating for 0 seconds&#10;N was increased to 2&#10;&#10;Block:&#10;Created by miner # 1&#10;Id: 3&lt;br&gt;Timestamp: 1539866031063&#10;Magic number: 57875299&#10;Hash of the previous block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&lt;br&gt;Hash of the block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&lt;br&gt;Block was generating for 0 seconds&#10;N was increased to 3&#10;&#10;Block:&#10;Created by miner # 2&#10;Id: 4&lt;br&gt;Timestamp: 1539866256729&#10;Magic number: 23468237&#10;Hash of the previous block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&lt;br&gt;Hash of the block: &lt;br&gt;000856a20d767fbbc38e0569354400c1750381100984a09a5d8b1cdf09b0bab6&lt;br&gt;Block was generating for 5 seconds&#10;N was increased to 4&#10;&#10;Block:&#10;Created by miner # 9&#10;Id: 5&lt;br&gt;Timestamp: 1539866256749&#10;Magic number: 18748749&#10;Hash of the previous block: &lt;br&gt;000856a20d767fbbc38e0569354400c1750381100984a09a5d8b1cdf09b0bab6&lt;br&gt;Hash of the block: &lt;br&gt;000031e22049646ca25c5f63fcc070e8c76319a050a7d1d5ca402090a30e9612&lt;br&gt;Block was generating for 15 seconds&#10;N stays the same&#10;&#10;Block:&#10;Created by miner # 5&#10;Id: 6&lt;br&gt;Timestamp: 1539866256750&#10;Magic number: 23423458&#10;Hash of the previous block: &lt;br&gt;000031e22049646ca25c5f63fcc070e8c76319a050a7d1d5ca402090a30e9612&lt;br&gt;Hash of the block: &lt;br&gt;0000e3dc2b8fc5f0c635358aa19a84eae68c316a40d22d6283ab1152f486f003&lt;br&gt;Block was generating for 65 seconds&#10;N was decreased by 1&#10;&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/50/stages/273/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5415" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Miner mania" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BlockchainTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BlockchainTest.java" />
+                                <option name="text" value="import blockchain.Main;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class BlockParseException extends Exception {&#10;    BlockParseException(String msg) {&#10;        super(msg);&#10;    }&#10;}&#10;&#10;&#10;class Block {&#10;&#10;    int id;&#10;    long timestamp;&#10;    long magic;&#10;    String hashprev;&#10;    String hash;&#10;&#10;    static Block parseBlock(String strBlock) throws BlockParseException {&#10;        if (strBlock.length() == 0) {&#10;            return null;&#10;        }&#10;&#10;        if (!(strBlock.contains(&quot;Block:&quot;)&#10;            &amp;&amp; strBlock.contains(&quot;Timestamp:&quot;))) {&#10;&#10;            return null;&#10;        }&#10;&#10;        Block block = new Block();&#10;&#10;        List&lt;String&gt; lines = strBlock&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        if (lines.size() != 11) {&#10;            throw new BlockParseException(&quot;Every block should &quot; +&#10;                &quot;contain 11 lines of data&quot;);&#10;        }&#10;&#10;        if (!lines.get(0).equals(&quot;Block:&quot;)) {&#10;            throw new BlockParseException(&quot;First line of every block &quot; +&#10;                &quot;should be \&quot;Block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(1).startsWith(&quot;Created by&quot;)) {&#10;            throw new BlockParseException(&quot;Second line of every block &quot; +&#10;                &quot;should start with \&quot;Created by\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(2).startsWith(&quot;Id:&quot;)) {&#10;            throw new BlockParseException(&quot;Third line of every block &quot; +&#10;                &quot;should start with \&quot;Id:\&quot;&quot;);&#10;        }&#10;&#10;        String id = lines.get(2).split(&quot;:&quot;)[1].strip();&#10;        boolean isNumeric = id.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Id should be a number&quot;);&#10;        }&#10;&#10;        block.id = Integer.parseInt(id);&#10;&#10;&#10;&#10;        if (!lines.get(3).startsWith(&quot;Timestamp:&quot;)) {&#10;            throw new BlockParseException(&quot;4-th line of every block &quot; +&#10;                &quot;should start with \&quot;Timestamp:\&quot;&quot;);&#10;        }&#10;&#10;        String timestamp = lines.get(3).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = timestamp.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Timestamp should be a number&quot;);&#10;        }&#10;&#10;        block.timestamp = Long.parseLong(timestamp);&#10;&#10;&#10;        if (!lines.get(4).startsWith(&quot;Magic number:&quot;)) {&#10;            throw new BlockParseException(&quot;5-th line of every block &quot; +&#10;                &quot;should start with \&quot;Magic number:\&quot;&quot;);&#10;        }&#10;&#10;        String magic = lines.get(4).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = magic.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Magic number should be a number&quot;);&#10;        }&#10;&#10;        block.magic = Long.parseLong(magic);&#10;&#10;&#10;&#10;        if (!lines.get(5).equals(&quot;Hash of the previous block:&quot;)) {&#10;            throw new BlockParseException(&quot;6-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the previous block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(7).equals(&quot;Hash of the block:&quot;)) {&#10;            throw new BlockParseException(&quot;8-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the block:\&quot;&quot;);&#10;        }&#10;&#10;        String prevhash = lines.get(6).strip();&#10;        String hash = lines.get(8).strip();&#10;&#10;        if (!(prevhash.length() == 64 || prevhash.equals(&quot;0&quot;))&#10;            || !(hash.length() == 64)) {&#10;&#10;            throw new BlockParseException(&quot;Hash length should &quot; +&#10;                &quot;be equal to 64 except \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        block.hash = hash;&#10;        block.hashprev = prevhash;&#10;&#10;        return block;&#10;    }&#10;&#10;&#10;    static List&lt;Block&gt; parseBlocks(String output) throws BlockParseException {&#10;        String[] strBlocks = output.split(&quot;\n\n&quot;);&#10;&#10;        List&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;&#10;        for (String strBlock : strBlocks) {&#10;            Block block = parseBlock(strBlock.strip());&#10;            if (block != null) {&#10;                blocks.add(block);&#10;            }&#10;        }&#10;&#10;        return blocks;&#10;    }&#10;}&#10;&#10;class Clue {&#10;    String zeros;&#10;    Clue(int n) {&#10;        zeros = &quot;0&quot;.repeat(n);&#10;    }&#10;}&#10;&#10;&#10;public class BlockchainTest extends BaseStageTest&lt;Clue&gt; {&#10;    public BlockchainTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;&gt;()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;Block&gt; blocks;&#10;        try {&#10;            blocks = Block.parseBlocks(reply);&#10;        } catch (BlockParseException ex) {&#10;            return new CheckResult(false, ex.getMessage());&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE;&#10;        }&#10;&#10;        if (blocks.size() != 5) {&#10;            return new CheckResult(false,&#10;                &quot;You should output 5 blocks, found &quot; + blocks.size());&#10;        }&#10;&#10;        Block first = blocks.get(0);&#10;        if (!first.hashprev.equals(&quot;0&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Previous hash of the first block should be \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; blocks.size(); i++) {&#10;            Block curr = blocks.get(i - 1);&#10;            Block next = blocks.get(i);&#10;&#10;            if (curr.id + 1 != next.id) {&#10;                return new CheckResult(false,&#10;                    &quot;Id`s of blocks should increase by 1&quot;);&#10;            }&#10;&#10;            if (next.timestamp &lt; curr.timestamp) {&#10;                return new CheckResult(false,&#10;                    &quot;Timestamp`s of blocks should increase&quot;);&#10;            }&#10;&#10;            if (!next.hashprev.equals(curr.hash)) {&#10;                return new CheckResult(false, &quot;Two hashes aren't equal, &quot; +&#10;                    &quot;but should&quot;);&#10;            }&#10;        }&#10;&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/Main.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1561938908000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;For&#10;now, we are mining blocks to create a blockchain, but just the blockchain&#10;itself is not particularly useful. The most useful information in the&#10;blockchain is the data that every block stores. The information can be anything.&#10;Let's create a simple chat based on the blockchain. If this blockchain works on&#10;the internet, it would be a world-wide chat. Everyone can add a line to this&#10;blockchain, but no one can edit it afterward. Every message would be visible to&#10;anyone.&lt;br&gt;&#10;&lt;br&gt;&#10;In this stage, you need to upgrade the blockchain. A block should contain&#10;messages that the blockchain received during the creation of the previous&#10;block. When the block was created, all new messages should become a part of the&#10;new block, and all the miners should start to search for a magic number for&#10;this block. New messages, which were sent after this moment, shouldn't be included&#10;in this new block. Don't forget about thread synchronization as there is a lot&#10;of shared data.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;You don't need any network connections as this is only a simulation of the blockchain. Use single blockchain and different clients that can send the message to the blockchain just invocating one method of the blockchain.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;So, the algorithm of adding messages is the following:&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;The first block doesn't contain any messages. Miners should find the magic number of this block. &lt;/li&gt;&lt;li&gt;During the search of the current block, the users can send the messages to the blockchain. The blockchain should keep them in a list until miners find a magic number and a new block would be created.&lt;br&gt;&lt;/li&gt;&lt;li&gt;After the creation of the new block, all new messages that were sent during the creation should be included in a new block and deleted from the list. &lt;br&gt;&lt;/li&gt;&lt;li&gt;After that, no more changes should be made to this block apart of the magic number. All new messages should be included in a list for the next block. The algorithm repeats from step 2.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;h2&gt;Output example&lt;/h2&gt;&lt;p&gt;To be tested successfully, program should output information about first five blocks of the blockchain. Blocks should be separated by an empty line.&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Block:&#10;Created by miner # 9&#10;Id: 1&lt;br&gt;Timestamp: 1539866031047&#10;Magic number: 92347626&#10;Hash of the previous block: &lt;br&gt;0&lt;br&gt;Hash of the block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&#10;Block data: no messages&#10;Block was generating for 0 seconds&#10;N was increased to 1&#10;&#10;Block:&#10;Created by miner # 7&#10;Id: 2&lt;br&gt;Timestamp: 1539866031062&#10;Magic number: 34678462&#10;Hash of the previous block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&lt;br&gt;Hash of the block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&#10;Block data:&#10;Tom: Hey, I'm first!&#10;Block was generating for 0 seconds&#10;N was increased to 2&#10;&#10;Block:&#10;Created by miner # 1&#10;Id: 3&lt;br&gt;Timestamp: 1539866031063&#10;Magic number: 56736428&#10;Hash of the previous block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&lt;br&gt;Hash of the block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&#10;Block data:&#10;Sarah: It's not fair!&#10;Sarah: You always will be first because it is your blockchain!&#10;Sarah: Anyway, thank you for this amazing chat.&#10;Block was generating for 0 seconds&#10;N was increased to 3&#10;&#10;Block:&#10;Created by miner # 2&#10;Id: 4&lt;br&gt;Timestamp: 1539866256729&#10;Magic number: 37567682&#10;Hash of the previous block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&lt;br&gt;Hash of the block: &lt;br&gt;000856a20d767fbbc38e0569354400c1750381100984a09a5d8b1cdf09b0bab6&#10;Block data:&#10;Tom: You're welcome :)&#10;Nick: Hey Tom, nice chat&#10;Block was generating for 5 seconds&#10;N was increased to 4&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/50/stages/274/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5416" />
+                      <option name="index" value="4" />
+                      <option name="name" value="You’ve got a message" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BlockchainTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BlockchainTest.java" />
+                                <option name="text" value="import blockchain.Main;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class BlockParseException extends Exception {&#10;    BlockParseException(String msg) {&#10;        super(msg);&#10;    }&#10;}&#10;&#10;&#10;class Block {&#10;&#10;    int id;&#10;    long timestamp;&#10;    long magic;&#10;    String hashprev;&#10;    String hash;&#10;&#10;    static Block parseBlock(String strBlock) throws BlockParseException {&#10;        if (strBlock.length() == 0) {&#10;            return null;&#10;        }&#10;&#10;        if (!(strBlock.contains(&quot;Block:&quot;)&#10;            &amp;&amp; strBlock.contains(&quot;Timestamp:&quot;))) {&#10;&#10;            return null;&#10;        }&#10;&#10;        Block block = new Block();&#10;&#10;        List&lt;String&gt; lines = strBlock&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        if (lines.size() &lt; 12) {&#10;            throw new BlockParseException(&quot;Every block should &quot; +&#10;                &quot;contain at least 12 lines of data&quot;);&#10;        }&#10;&#10;        if (!lines.get(0).equals(&quot;Block:&quot;)) {&#10;            throw new BlockParseException(&quot;First line of every block &quot; +&#10;                &quot;should be \&quot;Block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(1).startsWith(&quot;Created by&quot;)) {&#10;            throw new BlockParseException(&quot;Second line of every block &quot; +&#10;                &quot;should start with \&quot;Created by\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(2).startsWith(&quot;Id:&quot;)) {&#10;            throw new BlockParseException(&quot;Third line of every block &quot; +&#10;                &quot;should start with \&quot;Id:\&quot;&quot;);&#10;        }&#10;&#10;        String id = lines.get(2).split(&quot;:&quot;)[1].strip();&#10;        boolean isNumeric = id.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Id should be a number&quot;);&#10;        }&#10;&#10;        block.id = Integer.parseInt(id);&#10;&#10;&#10;&#10;        if (!lines.get(3).startsWith(&quot;Timestamp:&quot;)) {&#10;            throw new BlockParseException(&quot;4-th line of every block &quot; +&#10;                &quot;should start with \&quot;Timestamp:\&quot;&quot;);&#10;        }&#10;&#10;        String timestamp = lines.get(3).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = timestamp.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Timestamp should be a number&quot;);&#10;        }&#10;&#10;        block.timestamp = Long.parseLong(timestamp);&#10;&#10;&#10;        if (!lines.get(4).startsWith(&quot;Magic number:&quot;)) {&#10;            throw new BlockParseException(&quot;5-th line of every block &quot; +&#10;                &quot;should start with \&quot;Magic number:\&quot;&quot;);&#10;        }&#10;&#10;        String magic = lines.get(4).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = magic.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Magic number should be a number&quot;);&#10;        }&#10;&#10;        block.magic = Long.parseLong(magic);&#10;&#10;&#10;&#10;        if (!lines.get(5).equals(&quot;Hash of the previous block:&quot;)) {&#10;            throw new BlockParseException(&quot;6-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the previous block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(7).equals(&quot;Hash of the block:&quot;)) {&#10;            throw new BlockParseException(&quot;8-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the block:\&quot;&quot;);&#10;        }&#10;&#10;        String prevhash = lines.get(6).strip();&#10;        String hash = lines.get(8).strip();&#10;&#10;        if (!(prevhash.length() == 64 || prevhash.equals(&quot;0&quot;))&#10;            || !(hash.length() == 64)) {&#10;&#10;            throw new BlockParseException(&quot;Hash length should &quot; +&#10;                &quot;be equal to 64 except \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        block.hash = hash;&#10;        block.hashprev = prevhash;&#10;&#10;        if (!lines.get(9).startsWith(&quot;Block data:&quot;)) {&#10;            throw new BlockParseException(&quot;10-th line of every block &quot; +&#10;                &quot;should start with \&quot;Block data:\&quot;&quot;);&#10;        }&#10;&#10;        return block;&#10;    }&#10;&#10;&#10;    static List&lt;Block&gt; parseBlocks(String output) throws BlockParseException {&#10;        String[] strBlocks = output.split(&quot;\n\n&quot;);&#10;&#10;        List&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;&#10;        for (String strBlock : strBlocks) {&#10;            Block block = parseBlock(strBlock.strip());&#10;            if (block != null) {&#10;                blocks.add(block);&#10;            }&#10;        }&#10;&#10;        return blocks;&#10;    }&#10;}&#10;&#10;class Clue {&#10;    String zeros;&#10;    Clue(int n) {&#10;        zeros = &quot;0&quot;.repeat(n);&#10;    }&#10;}&#10;&#10;&#10;public class BlockchainTest extends BaseStageTest&lt;Clue&gt; {&#10;    public BlockchainTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;&gt;()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;Block&gt; blocks;&#10;        try {&#10;            blocks = Block.parseBlocks(reply);&#10;        } catch (BlockParseException ex) {&#10;            return new CheckResult(false, ex.getMessage());&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE;&#10;        }&#10;&#10;        if (blocks.size() != 5) {&#10;            return new CheckResult(false,&#10;                &quot;You should output 5 blocks, found &quot; + blocks.size());&#10;        }&#10;&#10;        Block first = blocks.get(0);&#10;        if (!first.hashprev.equals(&quot;0&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Previous hash of the first block should be \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; blocks.size(); i++) {&#10;            Block curr = blocks.get(i - 1);&#10;            Block next = blocks.get(i);&#10;&#10;            if (curr.id + 1 != next.id) {&#10;                return new CheckResult(false,&#10;                    &quot;Id`s of blocks should increase by 1&quot;);&#10;            }&#10;&#10;            if (next.timestamp &lt; curr.timestamp) {&#10;                return new CheckResult(false,&#10;                    &quot;Timestamp`s of blocks should increase&quot;);&#10;            }&#10;&#10;            if (!next.hashprev.equals(curr.hash)) {&#10;                return new CheckResult(false, &quot;Two hashes aren't equal, &quot; +&#10;                    &quot;but should&quot;);&#10;            }&#10;        }&#10;&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/Main.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1561938909000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;How&#10;safe is your messaging system at the moment? Anyone can add a message to the&#10;blockchain. But can anyone impersonate you and send a message using your name?&#10;Without encryption, this is totally possible. There needs to be a method to&#10;verify that it is actually you who sent this message. Note that the&#10;registration/authorization method is bad because there is no server to check&#10;for a valid login/password pair. And if there is, it can be cracked by the&#10;hackers who can steal your password. There needs to be a whole new level of&#10;security. &lt;br&gt;&#10;&lt;br&gt;&#10;Asymmetric cryptography solves this problem. With this, you can sign the&#10;message and let the signature be a special part of the message. You can&#10;generate a pair of keys: a public key and a private key. The message should be signed&#10;with a private key. And anyone can verify that the message and the signature&#10;pair is valid using a public key. The private key should be only on your&#10;computer, so no one from the internet can steal it. If you think that someone&#10;can steal your computer to get the private key, you can delete it from the&#10;computer and keep it in your head—that would be an example of maximum safety!&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;  For&#10;  code examples for creating private and public keys and signing and verifying&#10;  the message, look here:  &#10;&#10;&#10;&#10;  &lt;a href=&quot;http://www.mkyong.com/java/java-digital-signatures-example/&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://www.mkyong.com/java/java-digital-signatures-example/&lt;/a&gt;&lt;p&gt;&lt;br&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;  Now&#10;  there is another problem. A hacker can't just take any message and sign it like&#10;  it is your message, but he can take an already signed message and paste it into&#10;  the blockchain again; the signature of this message stays the same, doesn’t it?&#10;  For this reason, all messages should contain a unique identifier, and all these&#10;  identifiers should be in ascending order in the blockchain.&#10;&#10;&#10;&#10;&lt;/p&gt;&lt;p&gt;To get a unique identifier you should implement a method in the Blockchain class that always returns different numbers in the ascending order starting from number 1.&lt;br&gt;&lt;/p&gt;&lt;p&gt;In this stage, you need to upgrade the messages. The message should include the text of the message, the signature of this message, a unique identifier (remember to include a unique identifier when creating a signature), and a public key so everyone can check that this message is valid. Don't forget to check every message when checking that the blockchain is valid! The blockchain should reject the messages with identifier less than maximum identifier in the block in which miners looking for the magic number. Also, when validating the blockchain you should check that every message has an identifier greater than the maximum identifier of the previous block.&lt;/p&gt;&lt;h2&gt;Output example&#10;&#10;  &lt;br&gt;&lt;/h2&gt;&lt;p&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;  Output&#10;  is the same as in the previous stage, but with the exception that no one can&#10;  impersonate you and create a message using your name. To be tested successfully, program should output information about first five blocks of the blockchain. Blocks should be separated by an empty line.&#10;&#10;&#10;&#10;&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Block:&#10;Created by miner # 9&#10;Id: 1&lt;br&gt;Timestamp: 1539866031047&#10;Magic number: 34729843&#10;Hash of the previous block: &lt;br&gt;0&lt;br&gt;Hash of the block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&#10;Block data:&#10;Tom: Hey, I'm first!&#10;Block was generating for 0 seconds&#10;N was increased to 1&#10;&#10;Block:&#10;Created by miner # 7&#10;Id: 2&lt;br&gt;Timestamp: 1539866031062&#10;Magic number: 45389457&#10;Hash of the previous block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&lt;br&gt;Hash of the block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&#10;Block data:&#10;Tom: Hey, I'm second also!&#10;Block was generating for 0 seconds&#10;N was increased to 2&#10;&#10;Block:&#10;Created by miner # 1&#10;Id: 3&lt;br&gt;Timestamp: 1539866031063&#10;Magic number: 24234687&#10;Hash of the previous block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&lt;br&gt;Hash of the block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&#10;Block data:&#10;Sarah: It's not fair!&#10;Sarah: You always will be first because it is your blockchain!&#10;Sarah: Anyway, thank you for this amazing chat.&#10;Block was generating for 0 seconds&#10;N was increased to 3&#10;&#10;Block:&#10;Created by miner # 2&#10;Id: 4&lt;br&gt;Timestamp: 1539866256729&#10;Magic number: 12376812&#10;Hash of the previous block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&lt;br&gt;Hash of the block: &lt;br&gt;000856a20d767fbbc38e0569354400c1750381100984a09a5d8b1cdf09b0bab6&#10;Block data:&#10;Tom: You're welcome :)&#10;Nick: Hey Tom, nice chat&#10;Block was generating for 5 seconds&#10;N was increased to 4&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/50/stages/275/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5417" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Matters of security" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BlockchainTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BlockchainTest.java" />
+                                <option name="text" value="import blockchain.Main;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class BlockParseException extends Exception {&#10;    BlockParseException(String msg) {&#10;        super(msg);&#10;    }&#10;}&#10;&#10;&#10;class Block {&#10;&#10;    int id;&#10;    long timestamp;&#10;    long magic;&#10;    String hashprev;&#10;    String hash;&#10;&#10;    static Block parseBlock(String strBlock) throws BlockParseException {&#10;        if (strBlock.length() == 0) {&#10;            return null;&#10;        }&#10;&#10;        if (!(strBlock.contains(&quot;Block:&quot;)&#10;            &amp;&amp; strBlock.contains(&quot;Timestamp:&quot;))) {&#10;&#10;            return null;&#10;        }&#10;&#10;        Block block = new Block();&#10;&#10;        List&lt;String&gt; lines = strBlock&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        if (lines.size() &lt; 12) {&#10;            throw new BlockParseException(&quot;Every block should &quot; +&#10;                &quot;contain at least 12 lines of data&quot;);&#10;        }&#10;&#10;        if (!lines.get(0).equals(&quot;Block:&quot;)) {&#10;            throw new BlockParseException(&quot;First line of every block &quot; +&#10;                &quot;should be \&quot;Block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(1).startsWith(&quot;Created by&quot;)) {&#10;            throw new BlockParseException(&quot;Second line of every block &quot; +&#10;                &quot;should start with \&quot;Created by\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(2).startsWith(&quot;Id:&quot;)) {&#10;            throw new BlockParseException(&quot;Third line of every block &quot; +&#10;                &quot;should start with \&quot;Id:\&quot;&quot;);&#10;        }&#10;&#10;        String id = lines.get(2).split(&quot;:&quot;)[1].strip();&#10;        boolean isNumeric = id.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Id should be a number&quot;);&#10;        }&#10;&#10;        block.id = Integer.parseInt(id);&#10;&#10;&#10;&#10;        if (!lines.get(3).startsWith(&quot;Timestamp:&quot;)) {&#10;            throw new BlockParseException(&quot;4-th line of every block &quot; +&#10;                &quot;should start with \&quot;Timestamp:\&quot;&quot;);&#10;        }&#10;&#10;        String timestamp = lines.get(3).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = timestamp.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Timestamp should be a number&quot;);&#10;        }&#10;&#10;        block.timestamp = Long.parseLong(timestamp);&#10;&#10;&#10;        if (!lines.get(4).startsWith(&quot;Magic number:&quot;)) {&#10;            throw new BlockParseException(&quot;5-th line of every block &quot; +&#10;                &quot;should start with \&quot;Magic number:\&quot;&quot;);&#10;        }&#10;&#10;        String magic = lines.get(4).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = magic.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Magic number should be a number&quot;);&#10;        }&#10;&#10;        block.magic = Long.parseLong(magic);&#10;&#10;&#10;&#10;        if (!lines.get(5).equals(&quot;Hash of the previous block:&quot;)) {&#10;            throw new BlockParseException(&quot;6-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the previous block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(7).equals(&quot;Hash of the block:&quot;)) {&#10;            throw new BlockParseException(&quot;8-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the block:\&quot;&quot;);&#10;        }&#10;&#10;        String prevhash = lines.get(6).strip();&#10;        String hash = lines.get(8).strip();&#10;&#10;        if (!(prevhash.length() == 64 || prevhash.equals(&quot;0&quot;))&#10;            || !(hash.length() == 64)) {&#10;&#10;            throw new BlockParseException(&quot;Hash length should &quot; +&#10;                &quot;be equal to 64 except \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        block.hash = hash;&#10;        block.hashprev = prevhash;&#10;&#10;        if (!lines.get(9).startsWith(&quot;Block data:&quot;)) {&#10;            throw new BlockParseException(&quot;10-th line of every block &quot; +&#10;                &quot;should start with \&quot;Block data:\&quot;&quot;);&#10;        }&#10;&#10;        return block;&#10;    }&#10;&#10;&#10;    static List&lt;Block&gt; parseBlocks(String output) throws BlockParseException {&#10;        String[] strBlocks = output.split(&quot;\n\n&quot;);&#10;&#10;        List&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;&#10;        for (String strBlock : strBlocks) {&#10;            Block block = parseBlock(strBlock.strip());&#10;            if (block != null) {&#10;                blocks.add(block);&#10;            }&#10;        }&#10;&#10;        return blocks;&#10;    }&#10;}&#10;&#10;class Clue {&#10;    String zeros;&#10;    Clue(int n) {&#10;        zeros = &quot;0&quot;.repeat(n);&#10;    }&#10;}&#10;&#10;&#10;public class BlockchainTest extends BaseStageTest&lt;Clue&gt; {&#10;    public BlockchainTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;&gt;()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;Block&gt; blocks;&#10;        try {&#10;            blocks = Block.parseBlocks(reply);&#10;        } catch (BlockParseException ex) {&#10;            return new CheckResult(false, ex.getMessage());&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE;&#10;        }&#10;&#10;        if (blocks.size() != 5) {&#10;            return new CheckResult(false,&#10;                &quot;You should output 5 blocks, found &quot; + blocks.size());&#10;        }&#10;&#10;        Block first = blocks.get(0);&#10;        if (!first.hashprev.equals(&quot;0&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Previous hash of the first block should be \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; blocks.size(); i++) {&#10;            Block curr = blocks.get(i - 1);&#10;            Block next = blocks.get(i);&#10;&#10;            if (curr.id + 1 != next.id) {&#10;                return new CheckResult(false,&#10;                    &quot;Id`s of blocks should increase by 1&quot;);&#10;            }&#10;&#10;            if (next.timestamp &lt; curr.timestamp) {&#10;                return new CheckResult(false,&#10;                    &quot;Timestamp`s of blocks should increase&quot;);&#10;            }&#10;&#10;            if (!next.hashprev.equals(curr.hash)) {&#10;                return new CheckResult(false, &quot;Two hashes aren't equal, &quot; +&#10;                    &quot;but should&quot;);&#10;            }&#10;        }&#10;&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/Main.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1561938910000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Today,&#10;the most common application of blockchains is cryptocurrencies. A cryptocurrency’s&#10;blockchain contains a list of transactions: everyone can see the transactions&#10;but no one is able to change them. In addition, no one can send a transaction&#10;as another person; this is possible using digital signatures. You have actually&#10;implemented all of this functionality in the previous stages.&lt;br&gt;&#10;&lt;br&gt;&#10;A miner who creates a new block should be awarded some virtual money, for&#10;example, 100 virtual coins. This can be remembered in the blockchain if the&#10;block stores information about the miner who created this block. Of course,&#10;this message also should be proved, so the miner adds this information to the&#10;blockchain before starting a search for a magic number.&lt;br&gt;&#10;&lt;br&gt;&#10;After that, a miner can spend these 100 virtual coins by giving them to someone&#10;else. In the real world, he can buy things and pay for them using these virtual&#10;coins instead of real money. These virtual coins go to the company that sells the&#10;things, and the company can pay salaries with these virtual coins. The&#10;circulation of these coins starts here and suddenly the virtual coins become&#10;more popular than real money!&lt;br&gt;&#10;&lt;br&gt;&#10;To check how many coins a person has, you need to check all of his transactions&#10;and all of the transactions to him, assuming that the person started with zero&#10;virtual coins. The transaction should be rejected when the person tries to&#10;spend more money than he has at the moment. Create a special method that returns how many coins the person has.&lt;br&gt;&#10;&lt;br&gt;&#10;In this stage, you need to implement transactions like this instead of text&#10;messages like in the previous stage. For testing reasons you can assume that&#10;everyone starts with 100 virtual coins, not 0. But as described above, all the&#10;money of the blockchain is initially awards for creating blocks of the&#10;blockchain.&lt;div&gt;&lt;h2&gt;Output example&lt;/h2&gt;&lt;p&gt;In the output example, VC stands for Virtual Coins. To be tested successfully, program should output information about first five blocks of the blockchain. Blocks should be separated by an empty line.&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Block:&#10;Created by: miner9&#10;miner9 gets 100 VC&#10;Id: 1&#10;Timestamp: 1539866031047&#10;Magic number: 76384756&#10;Hash of the previous block: &lt;br&gt;0&lt;br&gt;Hash of the block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&#10;Block data:&#10;No transactions&#10;Block was generating for 0 seconds&#10;N was increased to 1&#10;&#10;Block:&#10;Created by: miner7&#10;miner7 gets 100 VC&#10;Id: 2&lt;br&gt;Timestamp: 1539866031062&#10;Magic number: 92347234&#10;Hash of the previous block: &lt;br&gt;1d12cbbb5bfa278734285d261051f5484807120032cf6adcca5b9a3dbf0e7bb3&lt;br&gt;Hash of the block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&#10;Block data:&#10;miner9 sent 30 VC to miner1&#10;miner9 sent 30 VC to miner2&#10;miner9 sent 30 VC to Nick&#10;Block was generating for 0 seconds&#10;N was increased to 2&#10;&#10;Block:&#10;Created by: miner1&#10;miner1 gets 100 VC&#10;Id: 3&lt;br&gt;Timestamp: 1539866031063&#10;Magic number: 42374628&#10;Hash of the previous block: &lt;br&gt;04a6735424357bf9af5a1467f8335e9427af714c0fb138595226d53beca5a05e&lt;br&gt;Hash of the block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&#10;Block data:&#10;miner9 sent 10 VC to Bob&#10;miner7 sent 10 VC to Alice&#10;Nick sent 1 VC to ShoesShop&#10;Nick sent 2 VC to FastFood&#10;Nick sent 15 VC to CarShop&#10;miner7 sent 90 VC to CarShop&#10;Block was generating for 0 seconds&#10;N was increased to 3&#10;&#10;Block:&#10;Created by miner2&#10;miner2 gets 100 VC&#10;Id: 4&lt;br&gt;Timestamp: 1539866256729&#10;Magic number: 45382978&#10;Hash of the previous block: &lt;br&gt;0061924d48d5ce30e97cfc4297f3a40bc94dfac6af42d7bf366d236007c0b9d3&lt;br&gt;Hash of the block: &lt;br&gt;000856a20d767fbbc38e0569354400c1750381100984a09a5d8b1cdf09b0bab6&#10;Block data:&#10;CarShop sent 10 VC to Worker1&#10;CarShop sent 10 VC to Worker2&#10;CarShop sent 10 VC to Worker3&#10;CarShop sent 30 VC to Director1&#10;CarShop sent 45 VC to CarPartsShop&#10;Bob sent 5 VC to GamingShop&#10;Alice sent 5 VC to BeautyShop&#10;Block was generating for 5 seconds&#10;N was increased to 4&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/50/stages/276/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5418" />
+                      <option name="index" value="6" />
+                      <option name="name" value="Local currency" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/BlockchainTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/BlockchainTest.java" />
+                                <option name="text" value="import blockchain.Main;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult;&#10;import org.hyperskill.hstest.v5.testcase.TestCase;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.stream.Collectors;&#10;&#10;&#10;class BlockParseException extends Exception {&#10;    BlockParseException(String msg) {&#10;        super(msg);&#10;    }&#10;}&#10;&#10;&#10;class Block {&#10;&#10;    int id;&#10;    long timestamp;&#10;    long magic;&#10;    String hashprev;&#10;    String hash;&#10;&#10;    static Block parseBlock(String strBlock) throws BlockParseException {&#10;        if (strBlock.length() == 0) {&#10;            return null;&#10;        }&#10;&#10;        if (!(strBlock.contains(&quot;Block:&quot;)&#10;            &amp;&amp; strBlock.contains(&quot;Timestamp:&quot;))) {&#10;&#10;            return null;&#10;        }&#10;&#10;        Block block = new Block();&#10;&#10;        List&lt;String&gt; lines = strBlock&#10;            .lines()&#10;            .map(String::strip)&#10;            .filter(e -&gt; e.length() &gt; 0)&#10;            .collect(Collectors.toList());&#10;&#10;        if (lines.size() &lt; 13) {&#10;            throw new BlockParseException(&quot;Every block should &quot; +&#10;                &quot;contain at least 13 lines of data&quot;);&#10;        }&#10;&#10;        if (!lines.get(0).equals(&quot;Block:&quot;)) {&#10;            throw new BlockParseException(&quot;First line of every block &quot; +&#10;                &quot;should be \&quot;Block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(1).startsWith(&quot;Created by&quot;)) {&#10;            throw new BlockParseException(&quot;Second line of every block &quot; +&#10;                &quot;should start with \&quot;Created by\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(2).contains(&quot;gets 100 VC&quot;)) {&#10;            throw new BlockParseException(&quot;Second line of every block &quot; +&#10;                &quot;should contain \&quot;gets 100 VC\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(3).startsWith(&quot;Id:&quot;)) {&#10;            throw new BlockParseException(&quot;4-th line of every block &quot; +&#10;                &quot;should start with \&quot;Id:\&quot;&quot;);&#10;        }&#10;&#10;        String id = lines.get(3).split(&quot;:&quot;)[1].strip();&#10;        boolean isNumeric = id.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Id should be a number&quot;);&#10;        }&#10;&#10;        block.id = Integer.parseInt(id);&#10;&#10;&#10;&#10;        if (!lines.get(4).startsWith(&quot;Timestamp:&quot;)) {&#10;            throw new BlockParseException(&quot;5-th line of every block &quot; +&#10;                &quot;should start with \&quot;Timestamp:\&quot;&quot;);&#10;        }&#10;&#10;        String timestamp = lines.get(4).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = timestamp.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Timestamp should be a number&quot;);&#10;        }&#10;&#10;        block.timestamp = Long.parseLong(timestamp);&#10;&#10;&#10;        if (!lines.get(5).startsWith(&quot;Magic number:&quot;)) {&#10;            throw new BlockParseException(&quot;6-th line of every block &quot; +&#10;                &quot;should start with \&quot;Magic number:\&quot;&quot;);&#10;        }&#10;&#10;        String magic = lines.get(5).split(&quot;:&quot;)[1].strip();&#10;        isNumeric = magic.chars().allMatch(Character::isDigit);&#10;&#10;        if (!isNumeric) {&#10;            throw new BlockParseException(&quot;Magic number should be a number&quot;);&#10;        }&#10;&#10;        block.magic = Long.parseLong(magic);&#10;&#10;&#10;&#10;        if (!lines.get(6).equals(&quot;Hash of the previous block:&quot;)) {&#10;            throw new BlockParseException(&quot;7-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the previous block:\&quot;&quot;);&#10;        }&#10;&#10;        if (!lines.get(8).equals(&quot;Hash of the block:&quot;)) {&#10;            throw new BlockParseException(&quot;9-th line of every block &quot; +&#10;                &quot;should be \&quot;Hash of the block:\&quot;&quot;);&#10;        }&#10;&#10;        String prevhash = lines.get(7).strip();&#10;        String hash = lines.get(9).strip();&#10;&#10;        if (!(prevhash.length() == 64 || prevhash.equals(&quot;0&quot;))&#10;            || !(hash.length() == 64)) {&#10;&#10;            throw new BlockParseException(&quot;Hash length should &quot; +&#10;                &quot;be equal to 64 except \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        block.hash = hash;&#10;        block.hashprev = prevhash;&#10;&#10;        if (!lines.get(10).startsWith(&quot;Block data:&quot;)) {&#10;            throw new BlockParseException(&quot;11-th line of every block &quot; +&#10;                &quot;should start with \&quot;Block data:\&quot;&quot;);&#10;        }&#10;&#10;        return block;&#10;    }&#10;&#10;&#10;    static List&lt;Block&gt; parseBlocks(String output) throws BlockParseException {&#10;        String[] strBlocks = output.split(&quot;\n\n&quot;);&#10;&#10;        List&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;&#10;        for (String strBlock : strBlocks) {&#10;            Block block = parseBlock(strBlock.strip());&#10;            if (block != null) {&#10;                blocks.add(block);&#10;            }&#10;        }&#10;&#10;        return blocks;&#10;    }&#10;}&#10;&#10;class Clue {&#10;    String zeros;&#10;    Clue(int n) {&#10;        zeros = &quot;0&quot;.repeat(n);&#10;    }&#10;}&#10;&#10;&#10;public class BlockchainTest extends BaseStageTest&lt;Clue&gt; {&#10;    public BlockchainTest() throws Exception {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Clue&gt;&gt; generate() {&#10;        return List.of(&#10;            new TestCase&lt;&gt;()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Clue clue) {&#10;&#10;        List&lt;Block&gt; blocks;&#10;        try {&#10;            blocks = Block.parseBlocks(reply);&#10;        } catch (BlockParseException ex) {&#10;            return new CheckResult(false, ex.getMessage());&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE;&#10;        }&#10;&#10;        if (blocks.size() != 5) {&#10;            return new CheckResult(false,&#10;                &quot;You should output 5 blocks, found &quot; + blocks.size());&#10;        }&#10;&#10;        Block first = blocks.get(0);&#10;        if (!first.hashprev.equals(&quot;0&quot;)) {&#10;            return new CheckResult(false,&#10;                &quot;Previous hash of the first block should be \&quot;0\&quot;&quot;);&#10;        }&#10;&#10;        for (int i = 1; i &lt; blocks.size(); i++) {&#10;            Block curr = blocks.get(i - 1);&#10;            Block next = blocks.get(i);&#10;&#10;            if (curr.id + 1 != next.id) {&#10;                return new CheckResult(false,&#10;                    &quot;Id`s of blocks should increase by 1&quot;);&#10;            }&#10;&#10;            if (next.timestamp &lt; curr.timestamp) {&#10;                return new CheckResult(false,&#10;                    &quot;Timestamp`s of blocks should increase&quot;);&#10;            }&#10;&#10;            if (!next.hashprev.equals(curr.hash)) {&#10;                return new CheckResult(false, &quot;Two hashes aren't equal, &quot; +&#10;                    &quot;but should&quot;);&#10;            }&#10;        }&#10;&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/Main.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1561938912000" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
