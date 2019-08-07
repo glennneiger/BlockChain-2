@@ -1,6 +1,9 @@
 package blockchain;
 
 import java.io.Serializable;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.SignatureException;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -8,27 +11,38 @@ public class BlockChain implements Serializable {
 
   private static Long LB = 1L; // one sec.
   private static Long UB = LB * 10L; // ten secs.
+  private static Integer messageId = 1;
 
   private ArrayList<Block> blocks = new ArrayList<>();
   private Integer numZeros = 0;
-  private ArrayList<String> messages = new ArrayList<>();
+  private ArrayList<Message> messages = new ArrayList<>();
 
-  public boolean validate() {
-    for (int i = 0; i < this.blocks.size(); ++i) {
-      if (i > 0 && !this.blocks.get(i).getPrevHash().equals(this.blocks.get(i - 1).getHash())) {
-        return false;
-      }
-    }
-    return true;
+  private boolean validBlock(Block newBlock) {
+    return this.blocks.size() == 0 ||
+        (
+            newBlock.getPrevHash().equals(this.blocks.get(this.blocks.size() - 1).getHash()) &&
+                newBlock.getHash().startsWith("0".repeat(this.numZeros)) &&
+                newBlock.getMessage().stream().allMatch(
+                    msg -> {
+                      try {
+                        return MessageHelper.verifySignature(
+                            (msg.getId() + msg.getMessage()).getBytes(), msg.getSignature(),
+                            msg.getPublicKey());
+                      } catch (NoSuchAlgorithmException | InvalidKeyException | SignatureException e) {
+                        e.printStackTrace();
+                      }
+                      return false; // Shouldn't hit.
+                    }
+                )
+        );
   }
 
   public synchronized void offer(Block newBlock) {
-    if (this.blocks.size() == 0 || newBlock.getPrevHash()
-        .equals(this.blocks.get(this.blocks.size() - 1).getHash()) && newBlock.getHash()
-        .startsWith("0".repeat(this.numZeros))) {
+    if (validBlock(newBlock)) {
       this.blocks.add(newBlock);
       this.messages = new ArrayList<>(
           this.messages.subList(newBlock.getMessageSize(), this.messages.size()));
+      messageId++;
       var computeTime = newBlock.getComputeTime();
       if (computeTime <= LB) {
         this.numZeros++;
@@ -54,12 +68,16 @@ public class BlockChain implements Serializable {
     return this.blocks.size() == 0 ? "0" : this.blocks.get(this.blocks.size() - 1).getHash();
   }
 
-  public synchronized void addMessage(String msg) {
+  public synchronized void addMessage(Message msg) {
     this.messages.add(msg);
   }
 
-  public synchronized ArrayList<String> getMessage() {
+  public synchronized ArrayList<Message> getMessage() {
     return new ArrayList<>(this.messages);
+  }
+
+  public synchronized Integer getMessageId() {
+    return messageId;
   }
 
   @Override

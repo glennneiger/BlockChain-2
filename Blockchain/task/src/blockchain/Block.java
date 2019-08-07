@@ -16,7 +16,7 @@ public class Block implements Serializable {
   private String minerId;
   private Integer numZeros;
   private String numZeroChanges;
-  private ArrayList<String> message;
+  private ArrayList<Message> message;
 
   public Block(int blockId, String minerId, String prevHash, int numZeros) {
     this.creationTimestamp = new Date().getTime();
@@ -26,7 +26,7 @@ public class Block implements Serializable {
     this.numZeros = numZeros;
   }
 
-  public void calcHash(ArrayList<String> message) {
+  public void calcHash(ArrayList<Message> message) {
     this.message = message;
     this.magicNumber = new Random().nextInt() & Integer.MAX_VALUE;
     this.hash = StringUtil.applySha256(
@@ -34,7 +34,7 @@ public class Block implements Serializable {
             this.id.toString() +
             this.creationTimestamp.toString() +
             this.magicNumber.toString() +
-            (this.message.size() != 0 ? String.join("\n", this.message) : "No message"));
+            MessageHelper.joinMessages(this.message));
     this.computeTime = (new Date().getTime() - this.creationTimestamp) / 1000;
   }
 
@@ -62,6 +62,10 @@ public class Block implements Serializable {
     return this.message.size();
   }
 
+  public ArrayList<Message> getMessage() {
+    return this.message;
+  }
+
   @Override
   public String toString() {
     return String.format(
@@ -81,7 +85,7 @@ public class Block implements Serializable {
         this.magicNumber,
         this.prevHash,
         this.hash,
-        this.message.size() != 0 ? String.join("\n", this.message) : "No message",
+        MessageHelper.joinMessages(this.message),
         this.computeTime,
         this.numZeroChanges
     );
