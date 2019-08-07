@@ -1,6 +1,7 @@
 package blockchain;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
 
@@ -13,26 +14,32 @@ public class Block implements Serializable {
   private Long computeTime;
   private Integer magicNumber;
   private String minerId;
+  private Integer numZeros;
   private String numZeroChanges;
+  private ArrayList<String> message;
 
   public Block(int blockId, String minerId, String prevHash, int numZeros) {
     this.creationTimestamp = new Date().getTime();
     this.id = blockId;
     this.minerId = minerId;
     this.prevHash = prevHash;
-    this.calcHash(numZeros);
+    this.numZeros = numZeros;
   }
 
-  private void calcHash(int numZeros) {
-    do {
-      this.magicNumber = new Random().nextInt() & Integer.MAX_VALUE;
-      this.hash = StringUtil.applySha256(
-          this.prevHash +
-              this.id.toString() +
-              this.creationTimestamp.toString() +
-              this.magicNumber.toString());
-    } while (!this.hash.startsWith("0".repeat(numZeros)));
+  public void calcHash(ArrayList<String> message) {
+    this.message = message;
+    this.magicNumber = new Random().nextInt() & Integer.MAX_VALUE;
+    this.hash = StringUtil.applySha256(
+        this.prevHash +
+            this.id.toString() +
+            this.creationTimestamp.toString() +
+            this.magicNumber.toString() +
+            (this.message.size() != 0 ? String.join("\n", this.message) : "No message"));
     this.computeTime = (new Date().getTime() - this.creationTimestamp) / 1000;
+  }
+
+  public boolean validHash() {
+    return this.hash != null && this.hash.startsWith("0".repeat(this.numZeros));
   }
 
   public String getHash() {
@@ -51,6 +58,10 @@ public class Block implements Serializable {
     this.numZeroChanges = change;
   }
 
+  public synchronized Integer getMessageSize() {
+    return this.message.size();
+  }
+
   @Override
   public String toString() {
     return String.format(
@@ -61,6 +72,7 @@ public class Block implements Serializable {
             + "Magic number: %s\n"
             + "Hash of the previous block:\n%s\n"
             + "Hash of the block:\n%s\n"
+            + "Block data:\n%s\n"
             + "Block was generating for %s seconds\n"
             + "%s\n",
         this.minerId,
@@ -69,6 +81,7 @@ public class Block implements Serializable {
         this.magicNumber,
         this.prevHash,
         this.hash,
+        this.message.size() != 0 ? String.join("\n", this.message) : "No message",
         this.computeTime,
         this.numZeroChanges
     );
