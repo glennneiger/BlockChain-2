@@ -1,5 +1,7 @@
 package blockchain;
 
+import blockchain.utils.MessageUtil;
+import blockchain.utils.StringUtil;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
@@ -34,7 +36,7 @@ public class Block implements Serializable {
             this.id.toString() +
             this.creationTimestamp.toString() +
             this.magicNumber.toString() +
-            MessageHelper.joinMessages(this.message));
+            MessageUtil.joinMessages(this.message));
     this.computeTime = (new Date().getTime() - this.creationTimestamp) / 1000;
   }
 
@@ -85,7 +87,7 @@ public class Block implements Serializable {
         this.magicNumber,
         this.prevHash,
         this.hash,
-        MessageHelper.joinMessages(this.message),
+        MessageUtil.joinMessages(this.message),
         this.computeTime,
         this.numZeroChanges
     );

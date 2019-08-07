@@ -1,5 +1,6 @@
-package blockchain;
+package blockchain.utils;
 
+import blockchain.Message;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
@@ -8,7 +9,7 @@ import java.security.Signature;
 import java.security.SignatureException;
 import java.util.ArrayList;
 
-public class MessageHelper {
+public class MessageUtil {
 
   static private final String type = "SHA256withRSA";
 

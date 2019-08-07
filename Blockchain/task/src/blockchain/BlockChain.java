@@ -1,5 +1,6 @@
 package blockchain;
 
+import blockchain.utils.MessageUtil;
 import java.io.Serializable;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
@@ -25,7 +26,7 @@ public class BlockChain implements Serializable {
                 newBlock.getMessage().stream().allMatch(
                     msg -> {
                       try {
-                        return MessageHelper.verifySignature(
+                        return MessageUtil.verifySignature(
                             (msg.getId() + msg.getMessage()).getBytes(), msg.getSignature(),
                             msg.getPublicKey());
                       } catch (NoSuchAlgorithmException | InvalidKeyException | SignatureException e) {

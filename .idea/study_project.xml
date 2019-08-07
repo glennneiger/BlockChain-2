@@ -372,7 +372,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="4" />
+                <option name="currentTaskIndex" value="5" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -842,8 +842,8 @@
                       <option name="id" value="5417" />
                       <option name="index" value="5" />
                       <option name="name" value="Matters of security" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="6" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/BlockchainTest.java">
@@ -880,7 +880,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/blockchain/StringUtil.java" />
                                 <option name="text" value="package blockchain;&#10;&#10;import java.nio.charset.StandardCharsets;&#10;import java.security.MessageDigest;&#10;&#10;class StringUtil {&#10;  /* Applies Sha256 to a string and returns a hash. */&#10;  public static String applySha256(String input){&#10;    try {&#10;      MessageDigest digest = MessageDigest.getInstance(&quot;SHA-256&quot;);&#10;      /* Applies sha256 to our input */&#10;      byte[] hash = digest.digest(input.getBytes(StandardCharsets.UTF_8));&#10;      StringBuilder hexString = new StringBuilder();&#10;      for (byte elem: hash) {&#10;        String hex = Integer.toHexString(0xff &amp; elem);&#10;        if(hex.length() == 1) hexString.append('0');&#10;        hexString.append(hex);&#10;      }&#10;      return hexString.toString();&#10;    }&#10;    catch(Exception e) {&#10;      throw new RuntimeException(e);&#10;    }&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -936,7 +936,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/blockchain/BlockChainUtil.java" />
                                 <option name="text" value="package blockchain;&#10;&#10;import java.io.File;&#10;import java.io.FileInputStream;&#10;import java.io.FileOutputStream;&#10;import java.io.IOException;&#10;import java.io.ObjectInputStream;&#10;import java.io.ObjectOutputStream;&#10;&#10;public class BlockChainUtil {&#10;&#10;  public static void save(BlockChain blockChain, String path) {&#10;    var file = new File(path);&#10;    try {&#10;      file.createNewFile();&#10;    } catch (IOException e) {&#10;    }&#10;    try (FileOutputStream fos = new FileOutputStream(&#10;        file, false); ObjectOutputStream oos = new ObjectOutputStream(fos)) {&#10;      oos.writeObject(blockChain);&#10;    } catch (IOException e) {&#10;      System.out.println(&quot;failed to write, error: &quot; + e.getMessage());&#10;    }&#10;  }&#10;&#10;  public static BlockChain load(String path) {&#10;    BlockChain blockChain = null;&#10;    try (FileInputStream fis = new FileInputStream(&#10;        path); ObjectInputStream ois = new ObjectInputStream(fis)) {&#10;      blockChain = (BlockChain) ois.readObject();&#10;    } catch (IOException | ClassNotFoundException e) {&#10;      System.out.println(&quot;failed to read, error: &quot; + e.getMessage());&#10;    }&#10;    return blockChain;&#10;  }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -1030,6 +1030,76 @@
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/blockchain/Main.java" />
                                 <option name="text" value="package blockchain;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/KeyGenerator.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/KeyGenerator.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;import java.security.KeyPair;&#10;import java.security.KeyPairGenerator;&#10;import java.security.NoSuchAlgorithmException;&#10;import java.security.PrivateKey;&#10;import java.security.PublicKey;&#10;&#10;public class KeyGenerator {&#10;&#10;  private KeyPair pair;&#10;&#10;  public KeyGenerator(int keyLength) throws NoSuchAlgorithmException {&#10;    var keyGen = KeyPairGenerator.getInstance(&quot;RSA&quot;);&#10;    keyGen.initialize(keyLength);&#10;    this.pair = keyGen.generateKeyPair();&#10;  }&#10;&#10;  public PrivateKey getPrivateKey() {&#10;    return this.pair.getPrivate();&#10;  }&#10;&#10;  public PublicKey getPublicKey() {&#10;    return this.pair.getPublic();&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Miner.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/Miner.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;public class Miner implements Runnable {&#10;&#10;  private String id;&#10;  private BlockChain blockChain;&#10;&#10;  public Miner(String id, BlockChain blockChain) {&#10;    this.id = id;&#10;    this.blockChain = blockChain;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    var newBlock = new Block(this.blockChain.size(), this.id, this.blockChain.getLastHash(),&#10;        this.blockChain.getN());&#10;    while (!newBlock.validHash()) {&#10;      newBlock.calcHash(this.blockChain.getMessage());&#10;    }&#10;    this.blockChain.offer(newBlock);&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/BlockChain.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/BlockChain.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;import blockchain.utils.MessageUtil;&#10;import java.io.Serializable;&#10;import java.security.InvalidKeyException;&#10;import java.security.NoSuchAlgorithmException;&#10;import java.security.SignatureException;&#10;import java.util.ArrayList;&#10;import java.util.stream.Collectors;&#10;&#10;public class BlockChain implements Serializable {&#10;&#10;  private static Long LB = 1L; // one sec.&#10;  private static Long UB = LB * 10L; // ten secs.&#10;  private static Integer messageId = 1;&#10;&#10;  private ArrayList&lt;Block&gt; blocks = new ArrayList&lt;&gt;();&#10;  private Integer numZeros = 0;&#10;  private ArrayList&lt;Message&gt; messages = new ArrayList&lt;&gt;();&#10;&#10;  private boolean validBlock(Block newBlock) {&#10;    return this.blocks.size() == 0 ||&#10;        (&#10;            newBlock.getPrevHash().equals(this.blocks.get(this.blocks.size() - 1).getHash()) &amp;&amp;&#10;                newBlock.getHash().startsWith(&quot;0&quot;.repeat(this.numZeros)) &amp;&amp;&#10;                newBlock.getMessage().stream().allMatch(&#10;                    msg -&gt; {&#10;                      try {&#10;                        return MessageUtil.verifySignature(&#10;                            (msg.getId() + msg.getMessage()).getBytes(), msg.getSignature(),&#10;                            msg.getPublicKey());&#10;                      } catch (NoSuchAlgorithmException | InvalidKeyException | SignatureException e) {&#10;                        e.printStackTrace();&#10;                      }&#10;                      return false; // Shouldn't hit.&#10;                    }&#10;                )&#10;        );&#10;  }&#10;&#10;  public synchronized void offer(Block newBlock) {&#10;    if (validBlock(newBlock)) {&#10;      this.blocks.add(newBlock);&#10;      this.messages = new ArrayList&lt;&gt;(&#10;          this.messages.subList(newBlock.getMessageSize(), this.messages.size()));&#10;      messageId++;&#10;      var computeTime = newBlock.getComputeTime();&#10;      if (computeTime &lt;= LB) {&#10;        this.numZeros++;&#10;        newBlock.setNumZeroChanges(&quot;N was increased to &quot; + this.numZeros.toString());&#10;      } else if (computeTime &lt;= UB) {&#10;        newBlock.setNumZeroChanges(&quot;N stays the same&quot;);&#10;      } else {&#10;        this.numZeros--;&#10;        newBlock.setNumZeroChanges(&quot;N was decreased by 1&quot;);&#10;      }&#10;    }&#10;  }&#10;&#10;  public synchronized int getN() {&#10;    return this.numZeros;&#10;  }&#10;&#10;  public synchronized int size() {&#10;    return this.blocks.size();&#10;  }&#10;&#10;  public synchronized String getLastHash() {&#10;    return this.blocks.size() == 0 ? &quot;0&quot; : this.blocks.get(this.blocks.size() - 1).getHash();&#10;  }&#10;&#10;  public synchronized void addMessage(Message msg) {&#10;    this.messages.add(msg);&#10;  }&#10;&#10;  public synchronized ArrayList&lt;Message&gt; getMessage() {&#10;    return new ArrayList&lt;&gt;(this.messages);&#10;  }&#10;&#10;  public synchronized Integer getMessageId() {&#10;    return messageId;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return this.blocks.subList(0, 5).stream().map(Block::toString)&#10;        .collect(Collectors.joining(&quot;\n&quot;));&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Block.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/Block.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;import blockchain.utils.MessageUtil;&#10;import blockchain.utils.StringUtil;&#10;import java.io.Serializable;&#10;import java.util.ArrayList;&#10;import java.util.Date;&#10;import java.util.Random;&#10;&#10;public class Block implements Serializable {&#10;&#10;  private Integer id;&#10;  private Long creationTimestamp;&#10;  private String prevHash;&#10;  private String hash;&#10;  private Long computeTime;&#10;  private Integer magicNumber;&#10;  private String minerId;&#10;  private Integer numZeros;&#10;  private String numZeroChanges;&#10;  private ArrayList&lt;Message&gt; message;&#10;&#10;  public Block(int blockId, String minerId, String prevHash, int numZeros) {&#10;    this.creationTimestamp = new Date().getTime();&#10;    this.id = blockId;&#10;    this.minerId = minerId;&#10;    this.prevHash = prevHash;&#10;    this.numZeros = numZeros;&#10;  }&#10;&#10;  public void calcHash(ArrayList&lt;Message&gt; message) {&#10;    this.message = message;&#10;    this.magicNumber = new Random().nextInt() &amp; Integer.MAX_VALUE;&#10;    this.hash = StringUtil.applySha256(&#10;        this.prevHash +&#10;            this.id.toString() +&#10;            this.creationTimestamp.toString() +&#10;            this.magicNumber.toString() +&#10;            MessageUtil.joinMessages(this.message));&#10;    this.computeTime = (new Date().getTime() - this.creationTimestamp) / 1000;&#10;  }&#10;&#10;  public boolean validHash() {&#10;    return this.hash != null &amp;&amp; this.hash.startsWith(&quot;0&quot;.repeat(this.numZeros));&#10;  }&#10;&#10;  public String getHash() {&#10;    return this.hash;&#10;  }&#10;&#10;  public String getPrevHash() {&#10;    return this.prevHash;&#10;  }&#10;&#10;  public Long getComputeTime() {&#10;    return this.computeTime;&#10;  }&#10;&#10;  public synchronized void setNumZeroChanges(String change) {&#10;    this.numZeroChanges = change;&#10;  }&#10;&#10;  public synchronized Integer getMessageSize() {&#10;    return this.message.size();&#10;  }&#10;&#10;  public ArrayList&lt;Message&gt; getMessage() {&#10;    return this.message;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return String.format(&#10;        &quot;Block:\n&quot;&#10;            + &quot;Created by miner # %s\n&quot;&#10;            + &quot;Id: %s\n&quot;&#10;            + &quot;Timestamp: %s\n&quot;&#10;            + &quot;Magic number: %s\n&quot;&#10;            + &quot;Hash of the previous block:\n%s\n&quot;&#10;            + &quot;Hash of the block:\n%s\n&quot;&#10;            + &quot;Block data:\n%s\n&quot;&#10;            + &quot;Block was generating for %s seconds\n&quot;&#10;            + &quot;%s\n&quot;,&#10;        this.minerId,&#10;        this.id,&#10;        this.creationTimestamp.toString(),&#10;        this.magicNumber,&#10;        this.prevHash,&#10;        this.hash,&#10;        MessageUtil.joinMessages(this.message),&#10;        this.computeTime,&#10;        this.numZeroChanges&#10;    );&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/blockchain/Message.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/blockchain/Message.java" />
+                                <option name="text" value="package blockchain;&#10;&#10;import java.security.PublicKey;&#10;&#10;public class Message {&#10;  private final String message;&#10;  private final String id;&#10;  private final byte[] signature;&#10;  private final PublicKey publicKey;&#10;&#10;  public Message(String message, Integer id, byte[] signature, PublicKey publicKey) {&#10;    this.message = message;&#10;    this.id = id.toString();&#10;    this.signature = signature;&#10;    this.publicKey = publicKey;&#10;  }&#10;&#10;  public String getMessage() {&#10;    return this.message;&#10;  }&#10;&#10;  public String getId() {&#10;    return this.id;&#10;  }&#10;&#10;  public byte[] getSignature() {&#10;    return this.signature;&#10;  }&#10;&#10;  public PublicKey getPublicKey() {&#10;    return this.publicKey;&#10;  }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>

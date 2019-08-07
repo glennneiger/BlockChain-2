@@ -1,5 +1,7 @@
 package blockchain;
 
+import blockchain.utils.KeyGenerator;
+import blockchain.utils.MessageUtil;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.SignatureException;
@@ -15,7 +17,7 @@ public class User implements Runnable {
       KeyGenerator keyGen = new KeyGenerator(1024);
       var id = this.blockChain.getMessageId();
       this.msg = new Message(
-          msg, id, MessageHelper.sign(id.toString() + msg, keyGen.getPrivateKey()),
+          msg, id, MessageUtil.sign(id.toString() + msg, keyGen.getPrivateKey()),
           keyGen.getPublicKey()
       );
     } catch (NoSuchAlgorithmException | SignatureException | InvalidKeyException e) {

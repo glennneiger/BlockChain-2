@@ -1,4 +1,4 @@
-package blockchain;
+package blockchain.utils;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;

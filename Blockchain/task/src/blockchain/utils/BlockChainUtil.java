@@ -1,5 +1,6 @@
-package blockchain;
+package blockchain.utils;
 
+import blockchain.BlockChain;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
