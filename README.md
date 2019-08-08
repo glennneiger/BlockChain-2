@@ -16,5 +16,5 @@ asymmetric key pair,
   - Decentralized
 
 - TODOs:
- - [ ] cryptocurrency
- - [ ] smart contract
+  - [ ] cryptocurrency
+  - [ ] smart contract
